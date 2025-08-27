@@ -171,7 +171,8 @@
 				<version>3.2.1</version>
 				<configuration>
 					<from>
-						<image>eclipse-temurin:17.0.4.1_1-jre</image>
+						<!-- Ovay ho image Java 21 -->
+						<image>eclipse-temurin:21-jdk</image>
 					</from>
 					<to>
 						<image>franto046/${project.artifactId}</image>
@@ -186,6 +187,7 @@
 					</execution>
 				</executions>
 			</plugin>
+
 
 		</plugins>
 	</build>
